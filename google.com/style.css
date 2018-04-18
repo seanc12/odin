@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  background: #fff;
+  font-family: Ariel, Helvetica;
+  color: #333;
+  font-size: 13px;
+}
+
+div #page {
+  height: 100%;
+}
+
+div #margin {
+  margin-top: 140px;
+  text-align: center;
+  height: 120px;
+}
+
+div #nav {
+  height: 40px;
+  line-height: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+div #nav a {
+  padding: 10px;
+  text-decoration: none;
+  color: #222;
+}
+
+div #nav a:hover {
+  text-decoration: underline;
+}
+
+div #nav a img {
+  vertical-align: middle;
+}
+
+.center {
+  margin: auto 0;
+  text-align: center;
+}
+
+div #search {
+  width: 480px;
+  margin: 0 auto;
+}
+
+input {
+  width: 480px;
+  height: 40px;
+  margin-bottom: 10px;
+  box-shadow: 0px 1px 4px 2px #e3e3e3;
+  border: 0.5px solid #d6d6d6;
+  border-radius: 3px;
+}
+
+div #buttons {
+  width: 280px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.flatbutton {
+  color: #757575;
+  background-color: #f4f4f4;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-weight: bold;
+  width: 200px;
+  border: 0.5px solid #f4f4f4;
+  border-radius: 3px;
+  box-shadow: 0px 0px 0px 0px #fff;
+}
+
+.flatbutton:hover {
+  border: 0.5px solid #aaa;
+  color: #222;
+}
+
+div#footer {
+  height: 40px;
+  line-height: 40px;
+
+  background-color: #eeeeee;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  border-top: 1px solid #ddd;
+}
+
+div#footerbar {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+div#footerbar a {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  color: #555;
+}
+
+div#footerbar a:hover {
+  text-decoration: underline;
+}
