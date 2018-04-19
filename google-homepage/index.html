@@ -2,16 +2,15 @@
 <html lang="en-US">
 
 <head>
-  <meta charset="utf-8"/>
-  <link rel="shortcut icon" href="favicon.ico"/>
-  
+  <meta charset="utf-8" />
+  <link rel="shortcut icon" href="gfavicon.ico" />
+
   <title>Google</title>
-  
-  <meta name="author" content="sean"/>
-  <meta name="description" content="google hack"/>
+
+  <meta name="author" content="sean" />
+  <meta name="description" content="google-homepage" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link href='#' rel='stylesheet' type='text/css'> 
   <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 </head>
 
@@ -26,8 +25,14 @@ _/_/_/_/  _/_/_/_/  _/    _/  _/      _/
 -->
 
   <div id="page">
+
+    <!-- navigation -->
+
     <div id="nav">
       <div>
+
+        <!-- left nav -->
+
         <a href="https://www.google.com/intl/en/about/?fg=1&utm_source=google.com&utm_medium=referral&utm_campaign=hp-header" target="_blank">About</a>
         <a href="https://store.google.com/?utm_source=hp_header&utm_medium=google_oo&utm_campaign=GS100042" target="_blank">Store</a>
       </div>
@@ -35,38 +40,65 @@ _/_/_/_/  _/_/_/_/  _/    _/  _/      _/
         <a href="https://www.google.com/gmail/about/" target="_blank">Gmail</a>
         <a href="https://images.google.com/" target="_blank">Images</a>
         <a href="https://scholar.google.com/" target="_blank">Scholar</a>
-        
 
-        <a href="https://gsuite.google.com/" target="_blank"><img src="images/apps.png" alt="apps"</a>
+        <!-- right nav -->
+
+        <a href="https://gsuite.google.com/" target="_blank"><img src="images/apps.png" alt="apps"></a>
         <a href="https://accounts.google.com/signin" target="_blank"><img src="images/noti.png" alt="notifications"></a>
-        <a href="http://seanc12.github.io/" target="_blank"><img src="images/logo.png" alt="account"></a>
+        <a href="http://seanc12.github.io/"><img src="images/logo.png" alt="account"></a>
       </div>
     </div>
 
+    <!-- center logo -->
+
     <div id="margin" class="center">
-      <a href="#" target="_blank"><img src="images/google.png" alt="account"></a>
+      <a href="https://www.google.com/" target="_blank"><img src="images/google.png" alt="google"></a>
     </div>
+
+    <!-- search -->
 
     <div id="search" class="center">
-      <form id="form">
-        <input id="input">
+      <form method="get" action="http://www.google.com/search" target="_blank">
+        <div id="input_container">
+          <input type="text" id="input" name="q">
+          <img id="input_img" src="images/voice.png" alt="voice">
+        </div>
+
+        <!-- buttons -->
+
         <div id="buttons">
-          <input type="submit" class="flatbutton" value="Google Search">
-          <input type="submit" class="flatbutton" value="I'm Feeling Lucky">
+          <input type="submit" class="button" value="Google Search">
+          <input type="submit" class="button" value="I'm Feeling Lucky">
         </div>
       </form>
+
+      <!-- arts and culture -->
+
+      <p>
+        <a href="https://artsandculture.google.com/project/cyark" target="_blank">Explore the world's iconic locations in 3D</a>
+      </p>
+
     </div>
 
+    <!-- footer -->
+
     <div id="footer">
-      <div id="footerbar">
-        <div id="leftfooter">
-          <a href="">Advertising</a>
-          <a href="">Business</a>
+      <div id="bar">
+
+        <!-- left footer -->
+
+        <div>
+          <a href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1&utm_expid=95258301-62.j8d9EPtxRJejVhR7dcqliQ.0&utm_referrer=https%3A%2F%2Fwww.google.com%2F"
+            target="_blank">Advertising</a>
+          <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none" target="_blank">Business</a>
         </div>
-        <div id="rightfooter">
-          <a href="">Privacy</a>
-          <a href="">Terms</a>
-          <a href="">Settings</a>
+
+        <!-- right footer -->
+
+        <div>
+          <a href="https://policies.google.com/privacy?hl=en&gl=us" target="_blank">Privacy</a>
+          <a href="https://policies.google.com/terms?hl=en&gl=us" target="_blank">Terms</a>
+          <a href="http://seanc12.github.io/">Settings</a>
         </div>
       </div>
     </div>
