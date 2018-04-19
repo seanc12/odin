@@ -116,20 +116,20 @@ input {
   border-top: 1px solid #ddd;
 }
 
-#bar {
+#bottom-nav {
   margin-left: 20px;
   margin-right: 20px;
   display: flex;
   justify-content: space-between;
 }
 
-#bar a {
+#bottom-nav a {
   padding-left: 10px;
   padding-right: 10px;
   text-decoration: none;
   color: #555;
 }
 
-#bar a:hover {
+#bottom-nav a:hover {
   text-decoration: underline;
 }
